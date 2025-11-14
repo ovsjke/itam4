@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from string import ascii_letters,digits
 from random import choices, randint
 import uvicorn
-from loguru import logger #.
+from loguru import logger #
 import time
 #Заранее извините, за этот ужас в коде, с трешовой 'архитектурой'
 #Мне просто хотелось самому разобраться и с нуля написать проект этот,
