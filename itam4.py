@@ -18,7 +18,6 @@ class LinkResponce(BaseModel):
 
 
 class UnicornExcept(Exception): #класс для отлова ошибок
-class UnicornExcept(Exception): #класс для отлова ошибок.
     def __init__(self, post: str, exception: Exception, method: str, status: int) :
         self.post = post
         self.exception = exception
